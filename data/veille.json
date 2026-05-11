@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Qu'est-ce que la veille technologique ?",
+    "date": "",
+    "source": "",
+    "theme": "Définition",
+    "summary": "La veille technologique consiste à surveiller les évolutions techniques et les innovations d’un secteur, à sélectionner les informations les plus pertinentes et récentes pour gagner du temps, et à organiser la collecte, le partage et la diffusion des informations afin d’anticiper les changements.",
+    "link": ""
+  },
+  {
+    "title": "Quel est le but d'une veille technologique ?",
+    "date": "",
+    "source": "",
+    "theme": "Objectifs",
+    "summary": "- Suivre les évolutions techniques\n- Être informé des inventions et innovations des concurrents\n- Diminuer les coûts de production\n- Augmenter les compétences",
+    "link": ""
+  },
+  {
+    "title": "Quels sont les outils de ma veille ?",
+    "date": "",
+    "source": "",
+    "theme": "Outils",
+    "summary": "Google Actualités & Alertes (se tenir informé des dernières technologies), Feedly (agrégateur de flux RSS complet), Twitter/X (suivre les dernières innovations).",
+    "link": ""
+  },
+  {
+    "title": "Quel a été le sujet de ma veille ?",
+    "date": "",
+    "source": "",
+    "theme": "Sujet & problématique",
+    "summary": "J’ai traité du sujet de l’intelligence artificielle et des dernières innovations technologiques, en constante évolution et influençant de nombreux secteurs. Problématique: Quelles avancées technologiques récentes façonnent notre avenir ?\nThèmes: 1) L’ouverture de l’IA au grand public 2) Les nouvelles innovations technologiques 2025 3) Une technologie éthique est-elle possible ?",
+    "link": ""
+  },
+  {
+    "title": "OpenAI va sortir un nouveau modèle open source",
+    "date": "2025-04-07",
+    "source": "GoodTech.info",
+    "theme": "Thème 1 — IA au grand public",
+    "summary": "OpenAI prévoit la publication d’un modèle à poids ouverts, rendant ses technologies plus accessibles au public et à la recherche: une avancée vers davantage de transparence en IA.",
+    "link": "https://www.lespecialiste.be/fr/actualites/e-health/ces-2025-un-apercu-des-avancees-technologiques-pour-la-sante.html?utm_source=chatgpt.com"
+  },
+  {
+    "title": "Un appel pour une IA plus responsable et locale",
+    "date": "2025-04-07",
+    "source": "GoodTech.info",
+    "theme": "Thème 1 — IA au grand public",
+    "summary": "Des experts appellent à développer des IA locales, personnalisables et open source pour protéger les données personnelles et démocratiser l’accès aux outils.",
+    "link": ""
+  },
+  {
+    "title": "Une main bionique ultra-réaliste",
+    "date": "2025-04-03",
+    "source": "EconomieDuSavoir / PSYONIC",
+    "theme": "Thème 2 — Innovations 2025",
+    "summary": "La startup PSYONIC présente une main bionique offrant un retour sensoriel précis et un contrôle naturel: grande avancée pour les personnes amputées et la robotique humanoïde.",
+    "link": ""
+  },
+  {
+    "title": "Un capteur de glucose non-invasif",
+    "date": "2025-04-03",
+    "source": "EconomieDuSavoir / Abbott",
+    "theme": "Thème 2 — Innovations 2025",
+    "summary": "Abbott dévoile un biocapteur surveillant le glucose en continu sans piqûre, prometteur pour les personnes diabétiques et le quantified self.",
+    "link": ""
+  },
+  {
+    "title": "Une technologie éthique est-elle possible ?",
+    "date": "2025-03-22",
+    "source": "VaticanNews",
+    "theme": "Thème 3 — Tech éthique",
+    "summary": "Réflexions sur des cadres éthiques face à l’IA et aux innovations rapides: gouvernance, responsabilité, transparence.",
+    "link": ""
+  }
+]

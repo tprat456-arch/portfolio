@@ -1,0 +1,19 @@
+# Netlify configuration for static site
+[build]
+  publish = "."
+  command = ""
+
+# Security headers (optional, simple defaults)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer-when-downgrade"
+    Content-Security-Policy = "default-src 'self' https: 'unsafe-inline' 'unsafe-eval' data:;"
+
+# Pretty URLs
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 200

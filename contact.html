@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Tom Prat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">TP<span>.</span></a>
+  <a href="index.html">Accueil</a>
+  <a href="projets.html">Projets</a>
+  <a href="competences.html">Compétences</a>
+  <a href="contact.html" class="active">Contact</a>
+  <a href="contact.html" class="nav-cta">Me contacter</a>
+</nav>
+
+<main class="page-fade">
+<section style="max-width: 800px;">
+  <p class="section-label">Contact</p>
+  <h1 style="font-size: 2.5rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 0.75rem;">
+    Travaillons ensemble.
+  </h1>
+  <p style="color: var(--text-secondary); max-width: 480px; margin-bottom: 3rem;">
+    Alternance, stage ou projet ? N'hésitez pas à me contacter directement
+    par mail ou via le formulaire ci-dessous.
+  </p>
+
+  <div class="grid-2" style="align-items: start; gap: 2rem;">
+
+    <!-- Coordonnées -->
+    <div style="display: flex; flex-direction: column; gap: 1rem;">
+      <div class="card" style="display: flex; align-items: center; gap: 1rem;">
+        <div style="width: 38px; height: 38px; border-radius: var(--radius); background: var(--accent-glow); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0;">📧</div>
+        <div>
+          <div style="font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.15rem;">Email</div>
+          <a href="mailto:tprat456@gmail.com" style="color: var(--accent); text-decoration: none; font-size: 0.88rem;">tprat456@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="card" style="display: flex; align-items: center; gap: 1rem;">
+        <div style="width: 38px; height: 38px; border-radius: var(--radius); background: var(--accent-glow); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0;">📞</div>
+        <div>
+          <div style="font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.15rem;">Téléphone</div>
+          <a href="tel:0782562569" style="color: var(--text-primary); text-decoration: none; font-size: 0.88rem;">07 82 56 25 69</a>
+        </div>
+      </div>
+
+      <div class="card" style="display: flex; align-items: center; gap: 1rem;">
+        <div style="width: 38px; height: 38px; border-radius: var(--radius); background: var(--accent-glow); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0;">📍</div>
+        <div>
+          <div style="font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.15rem;">Localisation</div>
+          <div style="color: var(--text-primary); font-size: 0.88rem;">Saint-Thomas (31470)<br>Occitanie, France</div>
+        </div>
+      </div>
+
+      <div class="card" style="display: flex; align-items: center; gap: 1rem;">
+        <div style="width: 38px; height: 38px; border-radius: var(--radius); background: var(--accent-glow); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0;">🎓</div>
+        <div>
+          <div style="font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.15rem;">Disponibilité</div>
+          <div style="font-size: 0.88rem;">
+            <span class="glow-dot" style="width: 7px; height: 7px; display: inline-block; margin-right: 6px;"></span>
+            <span style="color: var(--accent-green);">Disponible</span>
+            <span style="color: var(--text-secondary); font-size: 0.8rem;"> · BTS SIO 2026</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Formulaire -->
+    <div class="card">
+      <h3 style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 1.5rem;">Formulaire de contact</h3>
+      <div class="form-group">
+        <label for="name">Nom complet</label>
+        <input type="text" id="name" placeholder="Jean Dupont" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="jean@exemple.fr" />
+      </div>
+      <div class="form-group">
+        <label for="subject">Objet</label>
+        <input type="text" id="subject" placeholder="Stage, alternance, projet…" />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Votre message…"></textarea>
+      </div>
+      <button class="btn btn-primary" onclick="handleSubmit()" style="width: 100%; justify-content: center;">
+        Envoyer le message →
+      </button>
+      <p id="form-status" style="text-align: center; font-size: 0.82rem; margin-top: 0.75rem; min-height: 1.2em; color: var(--accent-green);"></p>
+    </div>
+
+  </div>
+
+</section>
+</main>
+
+<footer>
+  <span>© 2026 Tom Prat</span>
+  <span style="font-family: var(--font-mono);">tprat456@gmail.com · 07 82 56 25 69</span>
+</footer>
+
+<script>
+function handleSubmit() {
+  const name = document.getElementById('name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const message = document.getElementById('message').value.trim();
+  const status = document.getElementById('form-status');
+
+  if (!name || !email || !message) {
+    status.style.color = '#f09595';
+    status.textContent = 'Merci de remplir tous les champs obligatoires.';
+    return;
+  }
+
+  status.style.color = 'var(--accent-green)';
+  status.textContent = '✓ Message envoyé ! Je vous répondrai rapidement.';
+
+  // Reset
+  setTimeout(() => {
+    document.getElementById('name').value = '';
+    document.getElementById('email').value = '';
+    document.getElementById('subject').value = '';
+    document.getElementById('message').value = '';
+    setTimeout(() => { status.textContent = ''; }, 4000);
+  }, 1500);
+}
+</script>
+
+</body>
+</html>

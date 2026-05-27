@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parcours — Tom Prat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">TP<span>.</span></a>
+  <a href="index.html">Accueil</a>
+  <a href="projets.html">Projets</a>
+  <a href="parcours.html" class="active">Parcours</a>
+  <a href="contact.html">Contact</a>
+  <a href="contact.html" class="nav-cta">Me contacter</a>
+</nav>
+
+<main class="page-fade">
+<section>
+  <p class="section-label">Formations & Expériences</p>
+  <h1 style="font-size: 2.5rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 0.75rem;">
+    Mon parcours.
+  </h1>
+  <p style="color: var(--text-secondary); max-width: 540px; margin-bottom: 4rem;">
+    Mon parcours scolaire et mes expériences professionnelles, de la formation initiale
+    jusqu'à aujourd'hui.
+  </p>
+
+  <div class="grid-2" style="align-items: start; gap: 3rem;">
+
+    <!-- FORMATIONS -->
+    <div>
+      <p class="section-label">Formations</p>
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-date">2024 – 2026</div>
+          <div class="tl-title">BTS SIO – Option SLAM</div>
+          <div class="tl-place">Lycée Henri Matisse, Cugnaux</div>
+          <div class="tl-desc">
+            Services Informatiques aux Organisations, spécialité Solutions Logicielles
+            et Applications Métier. Formation aux langages de programmation, bases de données,
+            développement web, réseaux et cybersécurité.
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-date">2022 – 2024</div>
+          <div class="tl-title">Baccalauréat STI2D</div>
+          <div class="tl-place">Lycée Victor Hugo, Colomiers</div>
+          <div class="tl-desc">
+            Sciences et Technologies de l'Industrie et du Développement Durable.
+            Formation pluridisciplinaire mêlant électronique, mécanique et informatique industrielle.
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- EXPÉRIENCES -->
+    <div>
+      <p class="section-label">Expériences</p>
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-date">Janv. – Fév. 2026 · 6 semaines</div>
+          <div class="tl-title">Stage BTS SIO – 2ème année</div>
+          <div class="tl-place">ADDESK · Gimont, Gers</div>
+          <div class="tl-desc">
+            Mise en place d'une infrastructure VPN complète sur pfSense avec OpenVPN et WireGuard.
+            Apprentissage autonome des fondamentaux réseau (adressage IP, NAT, pare-feu, PKI).
+            Documentation des procédures. Petite structure de 4 personnes, proximité directe
+            avec l'équipe.
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-date">2019</div>
+          <div class="tl-title">Stage de découverte</div>
+          <div class="tl-place">Entreprise informatique</div>
+          <div class="tl-desc">
+            Première immersion dans le milieu professionnel de l'informatique.
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- RECAP EN CARTES -->
+  <p class="section-label">En résumé</p>
+  <div class="grid-2">
+
+    <div class="card">
+      <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+        <span style="font-size: 1.4rem;">🎓</span>
+        <h3 style="font-size: 1rem; font-weight: 700;">BTS SIO SLAM</h3>
+      </div>
+      <p style="color: var(--text-secondary); font-size: 0.85rem; line-height: 1.75;">
+        2 ans de formation en développement logiciel et applications métier.
+        Développement web, bases de données, algorithmique, réseaux.
+      </p>
+      <div style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+        <span class="tag tag-blue">2024 – 2026</span>
+        <span class="tag tag-gray">Cugnaux</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+        <span style="font-size: 1.4rem;">💼</span>
+        <h3 style="font-size: 1rem; font-weight: 700;">Stage ADDESK</h3>
+      </div>
+      <p style="color: var(--text-secondary); font-size: 0.85rem; line-height: 1.75;">
+        6 semaines en entreprise sur un projet réseau & infrastructure. Déploiement
+        de deux solutions VPN sur pfSense, validées et documentées.
+      </p>
+      <div style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+        <span class="tag tag-green">Janv.–Fév. 2026</span>
+        <span class="tag tag-gray">Gimont</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+        <span style="font-size: 1.4rem;">🏫</span>
+        <h3 style="font-size: 1rem; font-weight: 700;">Bac STI2D</h3>
+      </div>
+      <p style="color: var(--text-secondary); font-size: 0.85rem; line-height: 1.75;">
+        Baccalauréat technologique axé industrie et développement durable.
+        Bases en électronique, mécanique et programmation.
+      </p>
+      <div style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+        <span class="tag tag-amber">2022 – 2024</span>
+        <span class="tag tag-gray">Colomiers</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+        <span style="font-size: 1.4rem;">🌍</span>
+        <h3 style="font-size: 1rem; font-weight: 700;">Langues</h3>
+      </div>
+      <p style="color: var(--text-secondary); font-size: 0.85rem; line-height: 1.75;">
+        Français — langue maternelle.<br>
+        Anglais — bonne compréhension (4/5), expression orale intermédiaire (3/5).
+      </p>
+      <div style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+        <span class="tag tag-gray">Français</span>
+        <span class="tag tag-gray">Anglais</span>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+</main>
+
+<footer>
+  <span>© 2026 Tom Prat</span>
+  <span style="font-family: var(--font-mono);">tprat456@gmail.com · 07 82 56 25 69</span>
+</footer>
+
+</body>
+</html>

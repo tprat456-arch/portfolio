@@ -12,7 +12,7 @@
   <a class="nav-logo" href="index.html">TP<span>.</span></a>
   <a href="index.html">Accueil</a>
   <a href="projets.html" class="active">Projets</a>
-  <a href="competences.html">Compétences</a>
+  <a href="parcours.html">Parcours</a>
   <a href="contact.html">Contact</a>
   <a href="contact.html" class="nav-cta">Me contacter</a>
 </nav>
@@ -24,109 +24,105 @@
     Mes projets.
   </h1>
   <p style="color: var(--text-secondary); max-width: 560px; margin-bottom: 3rem;">
-    Projets réalisés en stage, en cours ou en autonomie. Chaque projet représente une
+    Projets réalisés en stage et en cours. Chaque projet représente une
     étape dans mon apprentissage du métier informatique.
   </p>
 
-  <!-- ── PROJET 1 : VPN ADDESK ── -->
-  <div style="margin-bottom: 3rem;">
-    <div class="card" style="border-left: 3px solid var(--accent); padding: 2rem 2.25rem;">
+  <!-- PROJET 1 : VPN ADDESK -->
+  <div class="card" style="border-left: 3px solid var(--accent); padding: 2rem 2.25rem;">
 
-      <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem;">
-        <div>
-          <span class="p-num" style="font-size: 0.7rem; color: var(--text-muted); display: block; margin-bottom: 0.5rem;">01 · Stage professionnel</span>
-          <h2 style="font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em;">Infrastructure VPN avec pfSense</h2>
-          <p style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 0.3rem;">
-            ADDESK · Gimont (Gers) · Janvier – Février 2026 · 6 semaines
-          </p>
-        </div>
-        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: flex-start;">
-          <span class="tag tag-blue">Réseau</span>
-          <span class="tag tag-green">VPN</span>
-          <span class="tag tag-gray">Infrastructure</span>
-        </div>
-      </div>
-
-      <!-- Contexte -->
-      <div style="margin-bottom: 1.5rem;">
-        <h3 style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 0.75rem;">Contexte</h3>
-        <p style="color: var(--text-secondary); line-height: 1.85; font-size: 0.9rem;">
-          Dans le cadre de mon stage de 2ème année de BTS SIO chez <strong style="color: var(--text-primary);">ADDESK</strong>,
-          société de services informatiques basée à Gimont, ma mission principale consistait à déployer une
-          infrastructure VPN complète sur pfSense. L'objectif : permettre à des clients TPE/PME d'accéder
-          à leur réseau local d'entreprise depuis l'extérieur (télétravail, maintenance à distance).
+    <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem;">
+      <div>
+        <span style="font-size: 0.7rem; color: var(--text-muted); display: block; margin-bottom: 0.5rem; font-family: var(--font-mono);">01 · Stage professionnel</span>
+        <h2 style="font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em;">Infrastructure VPN avec pfSense</h2>
+        <p style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 0.3rem;">
+          ADDESK · Gimont (Gers) · Janvier – Février 2026 · 6 semaines
         </p>
       </div>
-
-      <!-- Architecture réseau -->
-      <div style="margin-bottom: 1.5rem;">
-        <h3 style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 0.75rem;">Architecture réseau</h3>
-        <div class="card" style="background: var(--bg-primary); font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-secondary); padding: 1.25rem; border-radius: var(--radius);">
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem 2rem;">
-            <div><span style="color: var(--text-muted);">IP publique (Livebox WAN)</span></div>
-            <div style="color: var(--accent);">92.135.50.220</div>
-            <div><span style="color: var(--text-muted);">IP WAN ZimaBoard</span></div>
-            <div style="color: var(--accent);">192.168.1.61</div>
-            <div><span style="color: var(--text-muted);">IP LAN pfSense</span></div>
-            <div style="color: var(--accent);">192.168.100.1 /24</div>
-            <div><span style="color: var(--text-muted);">Tunnel OpenVPN</span></div>
-            <div style="color: var(--accent-green);">10.0.8.0 /24</div>
-            <div><span style="color: var(--text-muted);">Tunnel WireGuard</span></div>
-            <div style="color: var(--accent-green);">10.0.9.1 /24</div>
-          </div>
-        </div>
+      <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: flex-start;">
+        <span class="tag tag-blue">Réseau</span>
+        <span class="tag tag-green">VPN</span>
+        <span class="tag tag-gray">Infrastructure</span>
       </div>
+    </div>
 
-      <!-- Compte rendu PDF -->
-      <div style="margin-bottom: 1.5rem;">
-        <h3 style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 0.75rem;">Compte rendu de stage</h3>
-        <a href="rapports/rapport_stage_Prat_Tom.pdf" target="_blank" style="
-          display: inline-flex; align-items: center; gap: 0.75rem;
-          background: var(--bg-primary);
-          border: 1px solid var(--border);
-          border-radius: var(--radius);
-          padding: 0.9rem 1.25rem;
-          text-decoration: none;
-          transition: border-color 0.2s ease, background 0.2s ease;
-          width: 100%;
-        " onmouseover="this.style.borderColor='rgba(91,138,245,0.4)'; this.style.background='var(--bg-card-hover)'"
-           onmouseout="this.style.borderColor='var(--border)'; this.style.background='var(--bg-primary)'">
-          <span style="font-size: 1.4rem; flex-shrink: 0;">📄</span>
-          <div style="flex: 1; min-width: 0;">
-            <div style="font-size: 0.88rem; color: var(--text-primary); font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
-              rapport_stage_Prat_Tom.pdf
-            </div>
-            <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.1rem;">
-              Mise en place d'une infrastructure VPN avec pfSense, OpenVPN et WireGuard
-            </div>
-          </div>
-          <span style="font-size: 0.78rem; color: var(--accent); flex-shrink: 0; font-family: var(--font-mono);">Ouvrir →</span>
-        </a>
-      </div>
+    <!-- Contexte -->
+    <div style="margin-bottom: 1.5rem;">
+      <h3 style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 0.75rem;">Contexte</h3>
+      <p style="color: var(--text-secondary); line-height: 1.85; font-size: 0.9rem;">
+        Dans le cadre de mon stage de 2ème année de BTS SIO chez <strong style="color: var(--text-primary);">ADDESK</strong>,
+        société de services informatiques basée à Gimont, ma mission principale consistait à déployer une
+        infrastructure VPN complète sur pfSense. L'objectif : permettre à des clients TPE/PME d'accéder
+        à leur réseau local d'entreprise depuis l'extérieur (télétravail, maintenance à distance).
+      </p>
+    </div>
 
-
-      <!-- Stack -->
-      <div>
-        <h3 style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 0.75rem;">Technologies utilisées</h3>
-        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-          <span class="tag tag-blue">pfSense 2.8.1</span>
-          <span class="tag tag-blue">OpenVPN</span>
-          <span class="tag tag-blue">WireGuard</span>
-          <span class="tag tag-gray">ZimaBoard</span>
-          <span class="tag tag-gray">Cisco Switch</span>
-          <span class="tag tag-gray">ZFS</span>
-          <span class="tag tag-gray">NAT/PAT</span>
-          <span class="tag tag-gray">PKI / SSL</span>
-          <span class="tag tag-gray">VirtualBox</span>
+    <!-- Architecture réseau -->
+    <div style="margin-bottom: 1.5rem;">
+      <h3 style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 0.75rem;">Architecture réseau</h3>
+      <div style="background: var(--bg-primary); font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-secondary); padding: 1.25rem; border-radius: var(--radius); border: 1px solid var(--border);">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem 2rem;">
+          <div style="color: var(--text-muted);">IP publique (Livebox WAN)</div>
+          <div style="color: var(--accent);">92.135.50.220</div>
+          <div style="color: var(--text-muted);">IP WAN ZimaBoard</div>
+          <div style="color: var(--accent);">192.168.1.61</div>
+          <div style="color: var(--text-muted);">IP LAN pfSense</div>
+          <div style="color: var(--accent);">192.168.100.1 /24</div>
+          <div style="color: var(--text-muted);">Tunnel OpenVPN</div>
+          <div style="color: var(--accent-green);">10.0.8.0 /24</div>
+          <div style="color: var(--text-muted);">Tunnel WireGuard</div>
+          <div style="color: var(--accent-green);">10.0.9.1 /24</div>
         </div>
       </div>
     </div>
+
+    <!-- Compte rendu PDF -->
+    <div style="margin-bottom: 1.5rem;">
+      <h3 style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 0.75rem;">Compte rendu de stage</h3>
+      <a href="rapports/rapport_stage_Prat_Tom.pdf" target="_blank" style="
+        display: inline-flex; align-items: center; gap: 0.75rem;
+        background: var(--bg-primary);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 0.9rem 1.25rem;
+        text-decoration: none;
+        transition: border-color 0.2s ease, background 0.2s ease;
+        width: 100%;
+      " onmouseover="this.style.borderColor='rgba(91,138,245,0.4)'; this.style.background='var(--bg-card-hover)'"
+         onmouseout="this.style.borderColor='var(--border)'; this.style.background='var(--bg-primary)'">
+        <span style="font-size: 1.4rem; flex-shrink: 0;">📄</span>
+        <div style="flex: 1; min-width: 0;">
+          <div style="font-size: 0.88rem; color: var(--text-primary); font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+            rapport_stage_Prat_Tom.pdf
+          </div>
+          <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.1rem;">
+            Mise en place d'une infrastructure VPN avec pfSense, OpenVPN et WireGuard
+          </div>
+        </div>
+        <span style="font-size: 0.78rem; color: var(--accent); flex-shrink: 0; font-family: var(--font-mono);">Ouvrir →</span>
+      </a>
+    </div>
+
+    <!-- Technologies -->
+    <div>
+      <h3 style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 0.75rem;">Technologies utilisées</h3>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+        <span class="tag tag-blue">pfSense 2.8.1</span>
+        <span class="tag tag-blue">OpenVPN</span>
+        <span class="tag tag-blue">WireGuard</span>
+        <span class="tag tag-gray">ZimaBoard</span>
+        <span class="tag tag-gray">Cisco Switch</span>
+        <span class="tag tag-gray">ZFS</span>
+        <span class="tag tag-gray">NAT/PAT</span>
+        <span class="tag tag-gray">PKI / SSL</span>
+        <span class="tag tag-gray">VirtualBox</span>
+      </div>
+    </div>
+
   </div>
 
-
-
   <!-- CTA -->
-  <div style="text-align: center; padding: 2rem 0;">
+  <div style="text-align: center; padding: 3rem 0 0;">
     <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1rem;">
       Vous avez un projet à me confier ou souhaitez en savoir plus ?
     </p>

@@ -19,20 +19,33 @@
 
 <main class="page-fade">
 
-  <div class="hero">
-    <p class="hero-greeting">// bonjour, je suis</p>
-    <h1>Tom<br><span class="dim">Prat.</span></h1>
-    <p class="hero-sub">
-      Étudiant en BTS SIO option SLAM · Passionné par le développement web,
-      les réseaux et l'informatique au sens large. Basé à Saint-Thomas, Occitanie.
-    </p>
-    <div class="hero-btns">
-      <a href="projets.html" class="btn btn-primary">Voir mes projets →</a>
-      <a href="contact.html" class="btn btn-outline">Me contacter</a>
+  <div class="hero" style="flex-direction: row; align-items: center; gap: 4rem;">
+    <div style="flex: 1; min-width: 0;">
+      <p class="hero-greeting">// bonjour, je suis</p>
+      <h1>Tom<br><span class="dim">Prat.</span></h1>
+      <p class="hero-sub">
+        Étudiant en BTS SIO option SLAM · Passionné par le développement web,
+        les réseaux et l'informatique au sens large. Basé à Saint-Thomas, Occitanie.
+      </p>
+      <div class="hero-btns">
+        <a href="projets.html" class="btn btn-primary">Voir mes projets →</a>
+        <a href="contact.html" class="btn btn-outline">Me contacter</a>
+      </div>
+      <div style="margin-top: 3.5rem; display: flex; align-items: center; gap: 0.75rem;">
+        <span class="glow-dot"></span>
+        <span style="font-size: 0.8rem; color: var(--text-muted);">Disponible · Stage 2ème année terminé chez ADDESK</span>
+      </div>
     </div>
-    <div style="margin-top: 3.5rem; display: flex; align-items: center; gap: 0.75rem;">
-      <span class="glow-dot"></span>
-      <span style="font-size: 0.8rem; color: var(--text-muted);">Disponible · Stage 2ème année terminé chez ADDESK</span>
+    <div style="flex-shrink: 0;">
+      <img src="photo.png" alt="Tom Prat" style="
+        width: 280px;
+        height: 280px;
+        object-fit: cover;
+        object-position: center top;
+        border-radius: 50%;
+        border: 2px solid var(--border);
+        display: block;
+      " />
     </div>
   </div>
 
@@ -57,12 +70,7 @@
             <div style="font-size: 0.78rem; color: var(--text-muted);">Lycée Henri Matisse, Cugnaux · 2024–2026</div>
           </div>
         </div>
-        <div class="card" style="display: flex; align-items: center; gap: 1rem;">
-          <div>
-            <div style="font-size: 0.82rem; color: var(--text-primary); font-weight: 500;">Stage ADDESK</div>
-            <div style="font-size: 0.78rem; color: var(--text-muted);">Gimont (Gers) · Janv.–Fév. 2026 · 6 semaines</div>
-          </div>
-        </div>
+
         <div class="card" style="display: flex; align-items: center; gap: 1rem;">
           <div style="font-size: 1.6rem;">📍</div>
           <div>

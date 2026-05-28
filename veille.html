@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veille Technologique — Tom Prat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Accueil</a>
+  <a href="projets.html">Projets</a>
+  <a href="parcours.html">Parcours</a>
+  <a href="veille.html" class="active">Veille</a>
+  <a href="contact.html">Contact</a>
+  <a href="contact.html" class="nav-cta">Me contacter</a>
+</nav>
+
+<main class="page-fade">
+<section>
+
+  <p class="section-label">Veille technologique</p>
+  <h1 style="font-size: 2.5rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 0.75rem;">
+    Le marché de la RAM.
+  </h1>
+  <p style="color: var(--text-secondary); max-width: 620px; margin-bottom: 1rem;">
+    Suivi de l'évolution du marché de la mémoire vive (DDR4 / DDR5) depuis septembre 2024.
+    Un secteur qui a connu un retournement spectaculaire en l'espace de deux ans.
+  </p>
+
+  <!-- Sujet & méthode -->
+  <div class="card" style="margin-bottom: 3rem; border-left: 3px solid var(--accent);">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+      <div>
+        <div style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin-bottom: 0.4rem;">Sujet</div>
+        <div style="font-size: 0.9rem; color: var(--text-primary);">Marché de la mémoire RAM (DRAM / DDR5)</div>
+      </div>
+      <div>
+        <div style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin-bottom: 0.4rem;">Période couverte</div>
+        <div style="font-size: 0.9rem; color: var(--text-primary);">Septembre 2024 → Mai 2026</div>
+      </div>
+      <div>
+        <div style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin-bottom: 0.4rem;">Sources</div>
+        <div style="font-size: 0.9rem; color: var(--text-primary);">Clubic, Tom's Hardware, TrendForce, PauseHardware, DropReference</div>
+      </div>
+      <div>
+        <div style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin-bottom: 0.4rem;">Lien avec le BTS</div>
+        <div style="font-size: 0.9rem; color: var(--text-primary);">Infrastructure, dimensionnement des SI, gestion des coûts matériels</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chiffres clés -->
+  <div class="card" style="margin-bottom: 3rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 2rem; padding: 2rem;">
+    <div class="stat-box">
+      <div class="num">×5</div>
+      <div class="lbl">Hausse du prix d'un kit<br>32 Go DDR5 en 6 mois</div>
+    </div>
+    <div class="stat-box">
+      <div class="num">+344%</div>
+      <div class="lbl">Augmentation moyenne<br>sept. 2025 → janv. 2026</div>
+    </div>
+    <div class="stat-box">
+      <div class="num">−50%</div>
+      <div class="lbl">Ventes cartes mères<br>ASUS / MSI / Gigabyte</div>
+    </div>
+    <div class="stat-box">
+      <div class="num">95%</div>
+      <div class="lbl">Marché DRAM contrôlé<br>par 3 entreprises</div>
+    </div>
+  </div>
+
+  <!-- TIMELINE -->
+  <p class="section-label">Chronologie</p>
+  <h2 style="font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 2.5rem;">
+    Évolution du marché depuis 2024.
+  </h2>
+
+  <div class="timeline" style="max-width: 780px;">
+
+    <!-- Entrée 1 -->
+    <div class="tl-item">
+      <div class="tl-date">Septembre 2024</div>
+      <div class="tl-title">L'âge d'or de la DDR5 grand public</div>
+      <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 0.4rem 0 0.6rem;">
+        <span class="tag tag-green">Période favorable</span>
+        <span class="tag tag-gray">DDR5</span>
+      </div>
+      <div class="tl-desc">
+        En 2024, la DDR5 devient enfin accessible au grand public. Les prix sont au plus bas :
+        un kit 2×16 Go DDR5-6000 s'affiche autour de <strong style="color: var(--text-primary);">75 €</strong>,
+        et un kit 32 Go Crucial Pro OC DDR5-6400 se trouve à seulement <strong style="color: var(--text-primary);">93 €</strong>.
+        Intel et AMD abandonnent progressivement le support DDR4 sur leurs nouvelles plateformes,
+        forçant l'adoption de la DDR5. Le marché est en surabondance, les consommateurs en profitent.
+        La DDR5 représente déjà plus de 43 % des ventes de DRAM selon les analystes.
+      </div>
+    </div>
+
+    <!-- Entrée 2 -->
+    <div class="tl-item">
+      <div class="tl-date">Mi-2024 — Les premiers signaux d'alerte</div>
+      <div class="tl-title">La HBM aspire les capacités de production</div>
+      <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 0.4rem 0 0.6rem;">
+        <span class="tag tag-amber">Signal d'alerte</span>
+        <span class="tag tag-gray">HBM</span>
+        <span class="tag tag-gray">IA</span>
+      </div>
+      <div class="tl-desc">
+        Les analystes de Wells Fargo alertent : SK Hynix consacre désormais plus de
+        <strong style="color: var(--text-primary);">20 % de sa capacité de production</strong>
+        à la mémoire HBM (High Bandwidth Memory), utilisée dans les GPU d'IA comme ceux de NVIDIA.
+        SK Hynix prévoit une hausse de 300 % de ses ventes HBM sur l'année, Samsung enregistre +55 %
+        sur son HBM au 2ème trimestre. En conséquence, les premières hausses de prix DRAM grand public
+        apparaissent : +15 % estimé au 3ème trimestre 2024, puis +10 % au 4ème.
+        La production DDR4 commence à être réduite au profit de la DDR5 et de la HBM.
+      </div>
+    </div>
+
+    <!-- Entrée 3 -->
+    <div class="tl-item">
+      <div class="tl-date">Début 2025 — Fin du support Windows 10</div>
+      <div class="tl-title">Double choc : fin DDR4 + vague de mises à niveau</div>
+      <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 0.4rem 0 0.6rem;">
+        <span class="tag tag-amber">Tension croissante</span>
+        <span class="tag tag-gray">DDR4</span>
+        <span class="tag tag-gray">Windows 10</span>
+      </div>
+      <div class="tl-desc">
+        En octobre 2025, Microsoft met fin au support de Windows 10, déclenchant une vague massive
+        de renouvellement de parcs informatiques. Des millions d'entreprises et particuliers doivent
+        passer sur Windows 11, qui impose souvent un changement de PC, donc de RAM DDR5.
+        En parallèle, Samsung arrête la production de puces DDR4 8 Gb en avril 2025,
+        Micron annonce l'arrêt des modules serveur DDR4, et SK Hynix réduit la DDR4 à
+        seulement <strong style="color: var(--text-primary);">20 % de sa production</strong>.
+        Les stocks chez les fabricants commencent à fondre.
+      </div>
+    </div>
+
+    <!-- Entrée 4 -->
+    <div class="tl-item">
+      <div class="tl-date">Octobre – Novembre 2025</div>
+      <div class="tl-title">Le point de rupture : la pénurie s'installe</div>
+      <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 0.4rem 0 0.6rem;">
+        <span class="tag tag-blue" style="background: rgba(245,80,80,0.15); color: #f55050;">Crise</span>
+        <span class="tag tag-gray">Pénurie</span>
+        <span class="tag tag-gray">Prix</span>
+      </div>
+      <div class="tl-desc">
+        Les stocks moyens des fournisseurs de DRAM s'effondrent à
+        <strong style="color: var(--text-primary);">2 à 4 semaines</strong>
+        en octobre (contre 13 à 17 semaines fin 2024). Les prix explosent simultanément
+        dans le monde entier, avec une multiplication par <strong style="color: var(--text-primary);">3 à 4</strong>
+        selon les pays. Les ventes de cartes mères chez ASUS, MSI et Gigabyte chutent de
+        <strong style="color: var(--text-primary);">40 à 50 %</strong> par rapport à novembre 2024.
+        Samsung et SK Hynix notifient leurs clients d'une hausse de 30 % des prix contractuels
+        pour le T4 2025. Le G.Skill Trident Z5 32 Go passe de 250 € à plus de 400 €.
+      </div>
+    </div>
+
+    <!-- Entrée 5 -->
+    <div class="tl-item">
+      <div class="tl-date">Décembre 2025</div>
+      <div class="tl-title">Le RAMmageddon : pire crise depuis 2020</div>
+      <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 0.4rem 0 0.6rem;">
+        <span class="tag tag-blue" style="background: rgba(245,80,80,0.15); color: #f55050;">Pic de crise</span>
+        <span class="tag tag-gray">DRAM</span>
+      </div>
+      <div class="tl-desc">
+        Les prix des puces DDR5 atteignent <strong style="color: var(--text-primary);">27 $ par puce 16 Gb</strong>
+        au 1er décembre. La hausse totale de la DRAM sur le marché spot depuis janvier 2025 est de
+        <strong style="color: var(--text-primary);">+172 %</strong>. En Europe, certains kits DDR5
+        grand public ont augmenté de +89 % à +130 % entre septembre et novembre.
+        Chen Libai, président d'ADATA, parle officiellement d'un nouveau
+        <em>"super-cycle haussier"</em> de la mémoire. Le marché grand public est relégué au second plan
+        face aux commandes prioritaires des data centers d'IA (Google, Amazon, Microsoft, Meta).
+      </div>
+    </div>
+
+    <!-- Entrée 6 -->
+    <div class="tl-item">
+      <div class="tl-date">Janvier – Février 2026</div>
+      <div class="tl-title">Nouveau choc : Micron quitte le marché grand public</div>
+      <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 0.4rem 0 0.6rem;">
+        <span class="tag tag-blue" style="background: rgba(245,80,80,0.15); color: #f55050;">Aggravation</span>
+        <span class="tag tag-gray">Micron / Crucial</span>
+      </div>
+      <div class="tl-desc">
+        En février 2026, Micron cesse d'alimenter le marché sous sa marque
+        <strong style="color: var(--text-primary);">Crucial</strong>. Ce retrait provoque un choc d'offre
+        immédiat : les kits DDR5-5200 qui servaient de référence d'entrée de gamme passent au-delà des 400 €.
+        Un kit 2×16 Go DDR5-6000 atteint désormais
+        <strong style="color: var(--text-primary);">environ 400 €</strong>, soit ×5 par rapport à l'été 2024.
+        Un kit 64 Go dépasse les 900 €. La RAM est devenue le composant le plus cher d'une configuration PC.
+      </div>
+    </div>
+
+    <!-- Entrée 7 -->
+    <div class="tl-item">
+      <div class="tl-date">Mars – Mai 2026</div>
+      <div class="tl-title">Stabilisation à un niveau encore élevé + DDR6 à l'horizon</div>
+      <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 0.4rem 0 0.6rem;">
+        <span class="tag tag-green">Légère décrue</span>
+        <span class="tag tag-gray">DDR6</span>
+        <span class="tag tag-gray">Perspectives</span>
+      </div>
+      <div class="tl-desc">
+        Face à une demande grand public effondrée sous le poids de prix devenus intenables,
+        le marché européen observe une légère décrue. Mais il ne s'agit pas d'une normalisation :
+        les prix restent à des niveaux historiquement élevés. En parallèle, Samsung, SK Hynix et Micron
+        annoncent officiellement le développement de la <strong style="color: var(--text-primary);">DDR6</strong>,
+        avec une commercialisation ciblée entre 2028 et 2029. Les premières vitesses annoncées atteignent
+        17 600 MT/s. Les data centers IA seront les premiers bénéficiaires, le grand public devra patienter.
+        Un retour à des prix normaux n'est pas attendu avant <strong style="color: var(--text-primary);">fin 2027</strong>.
+      </div>
+    </div>
+
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- Analyse -->
+  <p class="section-label">Analyse</p>
+  <h2 style="font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 1.5rem;">
+    Pourquoi cette crise ? Ce que ça change.
+  </h2>
+
+  <div class="grid-2" style="margin-bottom: 2rem;">
+
+    <div class="card">
+      <h3 style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 1rem;">Les causes structurelles</h3>
+      <div style="display: flex; flex-direction: column; gap: 0.9rem;">
+        <div style="display: flex; gap: 0.75rem;">
+          <span style="color: var(--accent); flex-shrink: 0; font-weight: 700;">→</span>
+          <div style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.7;">
+            <strong style="color: var(--text-primary);">La HBM capte toutes les usines.</strong>
+            La mémoire HBM nécessite 3× plus de capacité d'usine qu'une puce DDR5 standard,
+            mais offre des marges bien supérieures. Samsung, SK Hynix et Micron l'ont massivement privilégiée.
+          </div>
+        </div>
+        <div style="display: flex; gap: 0.75rem;">
+          <span style="color: var(--accent); flex-shrink: 0; font-weight: 700;">→</span>
+          <div style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.7;">
+            <strong style="color: var(--text-primary);">Un oligopole de 3 acteurs.</strong>
+            Samsung, SK Hynix et Micron contrôlent 95 % de la production mondiale de DRAM.
+            Quand ces 3 entreprises réallouent leurs capacités, le marché entier en subit les conséquences.
+          </div>
+        </div>
+        <div style="display: flex; gap: 0.75rem;">
+          <span style="color: var(--accent); flex-shrink: 0; font-weight: 700;">→</span>
+          <div style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.7;">
+            <strong style="color: var(--text-primary);">La demande IA est insatiable.</strong>
+            Les hyperscalers (Google, Amazon, Microsoft) passent des commandes prioritaires,
+            laissant les particuliers face à des stocks résiduels.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 1rem;">Impact pour l'informatique professionnelle</h3>
+      <div style="display: flex; flex-direction: column; gap: 0.9rem;">
+        <div style="display: flex; gap: 0.75rem;">
+          <span style="color: var(--accent-green); flex-shrink: 0; font-weight: 700;">→</span>
+          <div style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.7;">
+            <strong style="color: var(--text-primary);">Coût des parcs informatiques.</strong>
+            Pour les entreprises qui renouvellent leur parc (obligation Windows 11),
+            la RAM est devenue un poste de coût stratégique à anticiper.
+          </div>
+        </div>
+        <div style="display: flex; gap: 0.75rem;">
+          <span style="color: var(--accent-green); flex-shrink: 0; font-weight: 700;">→</span>
+          <div style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.7;">
+            <strong style="color: var(--text-primary);">Dimensionnement des serveurs.</strong>
+            Les administrateurs systèmes doivent revoir les budgets d'infrastructure :
+            doubler la RAM d'un serveur coûte aujourd'hui 3 à 5 fois plus cher qu'en 2024.
+          </div>
+        </div>
+        <div style="display: flex; gap: 0.75rem;">
+          <span style="color: var(--accent-green); flex-shrink: 0; font-weight: 700;">→</span>
+          <div style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.7;">
+            <strong style="color: var(--text-primary);">Transition DDR4 → DDR5 forcée.</strong>
+            La fin de la DDR4 oblige toutes les nouvelles acquisitions à basculer sur DDR5,
+            au pire moment du cycle de prix.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Perspectives -->
+  <div class="card" style="border-left: 3px solid var(--accent-green);">
+    <h3 style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-green); margin-bottom: 1rem;">Perspectives 2027 – 2029</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem;">
+      <div>
+        <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.3rem; letter-spacing: 0.05em;">FIN 2027</div>
+        <div style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.7;">
+          Début de détente des prix. Un kit 32 Go DDR5 pourrait redescendre autour de 200–250 €,
+          loin des niveaux de 2024. La DDR6 arrive dans les data centers IA.
+        </div>
+      </div>
+      <div>
+        <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.3rem; letter-spacing: 0.05em;">2028 – 2029</div>
+        <div style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.7;">
+          Lancement commercial de la DDR6 (17 600 MT/s). Samsung, SK Hynix et Micron ciblent
+          d'abord les serveurs et data centers. Le grand public attend encore.
+        </div>
+      </div>
+      <div>
+        <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.3rem; letter-spacing: 0.05em;">FACTEUR CLÉ</div>
+        <div style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.7;">
+          Tant que la HBM reste aussi rentable, les fabricants n'ont aucune raison de revenir
+          massivement sur la DDR5 grand public. L'IA dicte le marché de la mémoire.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sources -->
+  <div style="margin-top: 3rem;">
+    <p class="section-label">Sources</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+      <a href="https://pausehardware.com/penurie-ram-ddr5-2025-guide-complet/" target="_blank" class="tag tag-gray" style="text-decoration: none; cursor: pointer;">PauseHardware.com</a>
+      <a href="https://dropreference.com/fr/blog/news/penurie-ram-ddr5-2026" target="_blank" class="tag tag-gray" style="text-decoration: none; cursor: pointer;">DropReference.com</a>
+      <a href="https://ts2.tech/fr/les-prix-de-la-ram-explosent-en-decembre-2025" target="_blank" class="tag tag-gray" style="text-decoration: none; cursor: pointer;">ts2.tech</a>
+      <a href="https://www.clubic.com/actualite-587191" target="_blank" class="tag tag-gray" style="text-decoration: none; cursor: pointer;">Clubic.com</a>
+      <a href="https://sk-web.fr/article/prix-ram-ddr5-2026" target="_blank" class="tag tag-gray" style="text-decoration: none; cursor: pointer;">sk-web.fr</a>
+      <a href="https://fr.investing.com/news/stock-market-news/samsung-et-micron-vont-augmenter-les-prix-des-dram" target="_blank" class="tag tag-gray" style="text-decoration: none; cursor: pointer;">Investing.com</a>
+      <a href="https://blog.kiatoo.com/actualite/pourquoi-prix-ram-explose-analyse-complete-causes-perspectives-5939" target="_blank" class="tag tag-gray" style="text-decoration: none; cursor: pointer;">blog.kiatoo.com</a>
+      <a href="https://www.ginjfo.com/actualites/composants/memoires/ddr6-samsung-sk-hynix-et-micron" target="_blank" class="tag tag-gray" style="text-decoration: none; cursor: pointer;">GinjFo.com</a>
+    </div>
+  </div>
+
+</section>
+</main>
+
+<footer>
+  <span>© 2026 Tom Prat</span>
+  <span style="font-family: var(--font-mono);">tprat456@gmail.com · 07 82 56 25 69</span>
+</footer>
+
+</body>
+</html>
